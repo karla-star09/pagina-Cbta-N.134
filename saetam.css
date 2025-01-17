@@ -1,0 +1,101 @@
+/* Archivo: info.css */
+
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(82, 110, 72); /* Fondo verde para todo el sitio */
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo del header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(51, 92, 53); /* Fondo verde más oscuro */
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    position: relative; /* Asegura un contexto para la imagen */
+    overflow: hidden; /* Contiene la imagen flotante */
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Listado de requisitos */
+.header ul {
+    list-style: disc;
+    text-align: left;
+    margin: 20px auto;
+    padding-left: 40px;
+    max-width: 600px;
+}
+
+.header ul li {
+    margin: 10px 0;
+    font-size: 1em;
+    color: white;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+/* Imagen */
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 250px; /* Tamaño mediano */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de información adicional */
+h2 {
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+h2 p {
+    font-size: 1em;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Botones en el encabezado */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(82, 110, 72);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgb(98, 130, 93);
+}

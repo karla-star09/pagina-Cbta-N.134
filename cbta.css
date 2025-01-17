@@ -1,0 +1,63 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(82, 110, 72);
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 20px;
+}
+
+/* Container for Misión, Visión, and Lema */
+.section-container {
+    border: 2px solid rgb(82, 110, 72);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for image */
+img {
+    float: right; /* Places the image on the right side */
+    margin: 20px; /* Adds spacing around the image */
+    max-width: 300px; /* Limits the image to a medium size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Botones en el encabezado */
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.header-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(82, 110, 72);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-buttons button:hover {
+    background-color: rgb(98, 130, 93);
+}
